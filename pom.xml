@@ -43,6 +43,7 @@
         <module>api-gateway</module>
         <module>inventory-service</module>
         <module>notification-service</module>
+        <module>clients-service</module>
     </modules>
 
     <build>

@@ -33,6 +33,7 @@ public class SecurityConfig {
             .authorizeExchange(exchange -> exchange
                 .pathMatchers("/auth/**").permitAll()
                 .pathMatchers("/actuator/**", "/h2-console/**").permitAll()
+                .pathMatchers("/clientes/**").permitAll()
                 .anyExchange().authenticated()
             )
             .oauth2ResourceServer(oauth2 -> oauth2

@@ -87,3 +87,4 @@ Verificar: http://localhost:8080
 | 3     | Auth Service      | 8083   | Eureka                  |
 | 4     | Inventory Service | 8082   | Eureka                  |
 | 5     | API Gateway       | 8080   | Eureka, Auth, Inventory |
+| 6     | Clients Service   | 8085   | Eureka                  |
