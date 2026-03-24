@@ -1,2 +1,5 @@
 server:
   port: 8085
+
+jwt:
+  secret: MiClaveSecretaParaJWT_MuyLarga_Y_Segura_123456789

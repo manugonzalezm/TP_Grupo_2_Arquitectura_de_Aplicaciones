@@ -26,7 +26,7 @@ spring:
         - id: clients-service
           uri: lb://clients-service
           predicates:
-            - Path=/clientes/**
+            - Path=/api/clientes/**
 
 eureka:
   instance:

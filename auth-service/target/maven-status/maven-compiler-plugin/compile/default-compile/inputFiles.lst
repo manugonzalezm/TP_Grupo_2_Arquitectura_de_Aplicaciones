@@ -1,0 +1,11 @@
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/AuthServiceApplication.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/config/DataInitializer.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/config/SecurityConfig.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/controller/AuthController.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/dto/LoginRequest.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/dto/TokenResponse.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/entity/Role.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/entity/User.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/repository/RoleRepository.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/repository/UserRepository.java
+/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/auth-service/src/main/java/com/uade/auth/service/JwtService.java

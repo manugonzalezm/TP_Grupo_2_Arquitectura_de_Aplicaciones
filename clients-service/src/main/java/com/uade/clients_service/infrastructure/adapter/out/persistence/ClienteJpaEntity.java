@@ -1,10 +1,10 @@
-package com.uade.clients_service.model;
+package com.uade.clients_service.infrastructure.adapter.out.persistence;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "clientes")
-public class Cliente {
+public class ClienteJpaEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,9 +19,9 @@ public class Cliente {
     private String telefono;
     private String direccion;
 
-    public Cliente() {}
+    public ClienteJpaEntity() {}
 
-    public Cliente(String dni, String nombre, String apellido, String email, String telefono, String direccion) {
+    public ClienteJpaEntity(String dni, String nombre, String apellido, String email, String telefono, String direccion) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellido = apellido;
