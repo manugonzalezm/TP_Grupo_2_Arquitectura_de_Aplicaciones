@@ -1,3 +1,3 @@
-/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/api-gateway/src/main/java/com/uade/gateway/ApiGatewayApplication.java
-/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/api-gateway/src/main/java/com/uade/gateway/config/SecurityConfig.java
-/Users/manuelgonzalezmourino/Documents/Proyectos/TP_Grupo_2_Arquitectura_de_Aplicaciones/api-gateway/src/main/java/com/uade/gateway/filter/AuthorizationHeaderGatewayFilterFactory.java
+C:\Users\flore\OneDrive\Escritorio\TPMicroservicios\TP_Grupo_2_Arquitectura_de_Aplicaciones\api-gateway\src\main\java\com\uade\gateway\ApiGatewayApplication.java
+C:\Users\flore\OneDrive\Escritorio\TPMicroservicios\TP_Grupo_2_Arquitectura_de_Aplicaciones\api-gateway\src\main\java\com\uade\gateway\config\SecurityConfig.java
+C:\Users\flore\OneDrive\Escritorio\TPMicroservicios\TP_Grupo_2_Arquitectura_de_Aplicaciones\api-gateway\src\main\java\com\uade\gateway\filter\AuthorizationHeaderGatewayFilterFactory.java
