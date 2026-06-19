@@ -1,0 +1,6 @@
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\config\KafkaConfig.java
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\config\RabbitMQConfig.java
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\event\ProductCreatedEvent.java
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\listener\KafkaProductEventListener.java
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\listener\ProductEventListener.java
+C:\Users\flore\OneDrive\Escritorio\UADE\2026\1°C\Arquitectura de aplicaciones\TPArquitectura-19-06\TP_Grupo_2_Arquitectura_de_Aplicaciones\notification-service\src\main\java\com\uade\notification\NotificationServiceApplication.java

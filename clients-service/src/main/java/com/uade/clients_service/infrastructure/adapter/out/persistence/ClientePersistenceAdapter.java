@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Component
 public class ClientePersistenceAdapter implements ClienteRepositoryPort {
@@ -20,9 +21,10 @@ public class ClientePersistenceAdapter implements ClienteRepositoryPort {
 
     @Override
     public List<Cliente> findAll() {
-        return jpaRepository.findAll().stream()
+        return jpaRepository.findAll()
+                .stream()
                 .map(mapper::toDomain)
-                .toList();
+                .collect(Collectors.toList());
     }
 
     @Override
@@ -33,7 +35,9 @@ public class ClientePersistenceAdapter implements ClienteRepositoryPort {
 
     @Override
     public Cliente save(Cliente cliente) {
-        return mapper.toDomain(jpaRepository.save(mapper.toJpaEntity(cliente)));
+        ClienteJpaEntity entity = mapper.toJpaEntity(cliente);
+        ClienteJpaEntity saved = jpaRepository.save(entity);
+        return mapper.toDomain(saved);
     }
 
     @Override

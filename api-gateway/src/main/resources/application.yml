@@ -27,6 +27,8 @@ spring:
           uri: lb://clients-service
           predicates:
             - Path=/api/clientes/**
+          filters:
+            - AuthorizationHeader
 
 eureka:
   instance:

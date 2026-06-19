@@ -1,8 +1,10 @@
 package com.uade.clients_service.application.service;
 
+import com.uade.clients_service.domain.event.ClienteCreatedEvent;
 import com.uade.clients_service.domain.model.Cliente;
 import com.uade.clients_service.domain.port.in.ClienteUseCase;
 import com.uade.clients_service.domain.port.out.ClienteRepositoryPort;
+import com.uade.clients_service.domain.port.out.EventPublisherPort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,9 +14,11 @@ import java.util.Optional;
 public class ClienteService implements ClienteUseCase {
 
     private final ClienteRepositoryPort repositoryPort;
+    private final EventPublisherPort eventPublisherPort;
 
-    public ClienteService(ClienteRepositoryPort repositoryPort) {
+    public ClienteService(ClienteRepositoryPort repositoryPort, EventPublisherPort eventPublisherPort) {
         this.repositoryPort = repositoryPort;
+        this.eventPublisherPort = eventPublisherPort;
     }
 
     @Override
@@ -29,7 +33,12 @@ public class ClienteService implements ClienteUseCase {
 
     @Override
     public Cliente createCliente(Cliente cliente) {
-        return repositoryPort.save(cliente);
+        Cliente saved = repositoryPort.save(cliente);
+        eventPublisherPort.publishClienteCreated(
+                new ClienteCreatedEvent(saved.getId(), saved.getDni(), saved.getNombre(),
+                        saved.getApellido(), saved.getEmail())
+        );
+        return saved;
     }
 
     @Override

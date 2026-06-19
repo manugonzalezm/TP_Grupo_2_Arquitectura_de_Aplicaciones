@@ -39,6 +39,15 @@
         </root>
     </springProfile>
 
+    <!-- Configuración para mensajería (rabbitmq / kafka) -->
+    <springProfile name="rabbitmq,kafka">
+        <logger name="com.uade.notification" level="DEBUG"/>
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </springProfile>
+
+
     <!-- Configuración para producción -->
     <springProfile name="prod,production">
         <logger name="com.uade.microservicios" level="INFO"/>
